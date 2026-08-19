@@ -1,6 +1,24 @@
 ---
 title: Menu principal
 items:
+- title: El proyecto
+  slug: el-proyecto
+  target: "/el-proyecto-1/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/el-proyecto-1"
+  file: content/fr/pages/el-proyecto-1/_index.html
+- title: Testimonios contados
+  slug: testimonios-contados
+  target: "/projets/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/projects"
+  file: content/fr/projects/_index.html
 - title: Actualités
   slug: actualites
   target: "/actualites/"
@@ -28,15 +46,6 @@ items:
   descendants_targets: []
   path: "/exhibitions"
   file: content/fr/exhibitions/_index.html
-- title: Projets
-  slug: projets
-  target: "/projets/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/projects"
-  file: content/fr/projects/_index.html
 - title: Personnes
   slug: personnes
   target: "/personnes/"
@@ -46,8 +55,8 @@ items:
   descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
-- title: Organisations
-  slug: organisations
+- title: Instituciones asociadas
+  slug: instituciones-asociadas
   target: "/organisations/"
   kind: page
   new_tab: false
