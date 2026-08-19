@@ -6,8 +6,38 @@ items:
   target: "/el-proyecto-1/"
   kind: page
   new_tab: false
-  children: []
-  descendants_targets: []
+  children:
+  - title: Memoria popular del carbón
+    slug: memoria-popular-del-carbon
+    target: "/el-proyecto-1/memoria-popular-del-carbon/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/el-proyecto-1/memoria-popular-del-carbon"
+    file: content/fr/pages/el-proyecto-1/memoria-popular-del-carbon/_index.html
+  - title: Quiénes somos
+    slug: quienes-somos
+    target: "/el-proyecto-1/quienes-somos/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/el-proyecto-1/quienes-somos"
+    file: content/fr/pages/el-proyecto-1/quienes-somos/_index.html
+  - title: Ciencia abierta
+    slug: ciencia-abierta
+    target: "/el-proyecto-1/ciencia-abierta/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/el-proyecto-1/ciencia-abierta"
+    file: content/fr/pages/el-proyecto-1/ciencia-abierta/_index.html
+  descendants_targets:
+  - "/el-proyecto-1/ciencia-abierta/"
+  - "/el-proyecto-1/memoria-popular-del-carbon/"
+  - "/el-proyecto-1/quienes-somos/"
   path: "/pages/el-proyecto-1"
   file: content/fr/pages/el-proyecto-1/_index.html
 - title: Testimonios contados
@@ -19,6 +49,15 @@ items:
   descendants_targets: []
   path: "/projects"
   file: content/fr/projects/_index.html
+- title: Instituciones asociadas
+  slug: instituciones-asociadas
+  target: "/organisations/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/organizations"
+  file: content/fr/organizations/_index.html
 - title: Actualités
   slug: actualites
   target: "/actualites/"
@@ -55,13 +94,4 @@ items:
   descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
-- title: Instituciones asociadas
-  slug: instituciones-asociadas
-  target: "/organisations/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/organizations"
-  file: content/fr/organizations/_index.html
 
